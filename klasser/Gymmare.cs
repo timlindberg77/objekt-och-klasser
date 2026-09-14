@@ -7,7 +7,7 @@ public class Gymmare
     public string namn;
     public int ålder;
 
-    public void Träna()
+    public virtual void Träna()
     {
         Console.WriteLine("Gymmaren tränar");
     }

@@ -1,4 +1,6 @@
-﻿namespace Olympex
+﻿using Olympex.klasser;
+
+namespace Olympex
 {
     public class Program
     {
@@ -18,6 +20,12 @@
 
             Arnold.Träna();
             Arnold.optimal();
+
+            Sbl Tim = new Sbl();
+            Tim.namn = "Tim";
+            Tim.ålder = 20;
+
+            Tim.Träna();
 
 
         }
