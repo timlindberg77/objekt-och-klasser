@@ -27,6 +27,11 @@ namespace Olympex
 
             Tim.Träna();
 
+            Crossfitter crossfitter = new Crossfitter();
+            crossfitter.Namn = "Fia";
+            crossfitter.ålder = 25;
+            crossfitter.Träna();
+            crossfitter.Wod();
 
         }
     }
