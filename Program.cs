@@ -33,6 +33,15 @@ namespace Olympex
             crossfitter.Träna();
             crossfitter.Wod();
 
+            Sprinter sprinter = new Sprinter();
+            sprinter.namn = "Usain";
+            sprinter.ålder = 35;
+            sprinter.Cardio();
+
+            Marathonlöpare marathonlöpare = new Marathonlöpare();
+            marathonlöpare.namn = "Eliud";
+            marathonlöpare.ålder = 38;
+            marathonlöpare.Cardio();
         }
     }
 }
